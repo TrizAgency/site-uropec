@@ -7,6 +7,8 @@
 @theme inline {
   --color-background: var(--background);
   --color-dark-green: #026E6A;
+  --color-light-green: #029383;
+  --color-blue: #065084;
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 }
@@ -22,8 +24,12 @@ body {
 
 @media (max-width:1279px) {
   .container {
-    padding-right: 24px;
-    padding-left: 24px;
+    max-width: 85%;
+    margin: auto;
+  }
+  
+  .container-lg {
+    max-width: 90%;
     margin: auto;
   }
 }
@@ -33,6 +39,11 @@ body {
     max-width: 1200px;
     margin: auto;
   }
+
+  .container-lg {
+    max-width: 1280px;
+    margin: auto;
+  }
 }
 
 @media (min-width: 1536px) {
@@ -40,9 +51,67 @@ body {
     max-width: 1400px;
     margin: auto;
   }
+  .container-lg {
+    max-width: 1800px;
+    margin: auto;
+  }
 }
 
+/* Header submenu */
 .menu-group:hover > span,
 .menu-group:has(ul:hover) > span {
     background: white;
+}
+
+/* Pagination */
+.swiper-pagination {
+  bottom: 30px !important;
+}
+
+.swiper-pagination-bullet {
+  background: #aaaaaa !important;
+  width: 13px !important;
+  height: 13px !important;
+  margin: 0 6px !important;
+  opacity: 1 !important;
+}
+
+.swiper-pagination-bullet-active {
+  background: white !important;
+}
+
+/* Swiper cards */
+.swiper-cards .swiper-slide > div {
+  opacity: 0;
+  transition: all 0.2s ease-in-out;
+}
+
+.swiper-cards .swiper-slide-active > div {
+  opacity: 1;
+  display: flex;
+  transition: all 0.2s ease-in-out;
+  margin-bottom: 20px;
+}
+
+.swiper-cards .swiper-slide-prev > div {
+  opacity: 0.7;
+  display: flex;
+  transition: all 0.2s ease-in-out
+}
+
+.swiper-cards .swiper-slide-next > div {
+  opacity: 0.7;
+  display: flex;
+  transition: all 0.2s ease-in-out
+}
+
+/* Card Link */
+.swiper-cards .swiper-slide > a {
+  opacity: 0;
+  display: flex;
+  transition: all 0.2s ease-in-out;
+}
+
+.swiper-cards .swiper-slide-active > a {
+  opacity: 1;
 }

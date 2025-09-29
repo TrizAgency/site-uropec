@@ -50,12 +50,12 @@ export default function Header() {
                         <li key={index} className="relative uppercase group menu-group">
                             {item.children ? (
                                 <>
-                                    <span className="cursor-pointer text-dark-green py-3 px-4 hover:bg-white rounded-t-xl font-medium transition-colors duration-300 tracking-widest">
+                                    <span className="cursor-pointer text-light-green py-3 px-4 hover:bg-white rounded-t-xl font-medium transition-colors duration-300 tracking-widest">
                                         {item.label}
                                     </span>
                                         <ul className="absolute normal-case mt-1 w-full text-center bg-white rounded-b-xl opacity-0 pointer-events-none group-hover:opacity-100 group-hover:pointer-events-auto z-0 group-hover:z-10 transition-opacity duration-300">
                                             {item.children.map((subItem, subIndex) => (
-                                                <li key={subIndex} className="text-dark-green hover:bg-dark-green hover:text-white hover:font-bold text-sm transition-all duration-300 last:rounded-b-xl">
+                                                <li key={subIndex} className="text-light-green hover:bg-light-green hover:text-white hover:font-bold text-sm transition-all duration-300 last:rounded-b-xl">
                                                     <Link 
                                                         href={subItem.href} 
                                                         className="block px-4 py-2 "
@@ -67,7 +67,7 @@ export default function Header() {
                                         </ul>
                                 </>
                             ) : (
-                                <Link href={item.href} className="text-dark-green py-3 px-4 hover:bg-white rounded-xl font-medium transition-colors duration-300 tracking-widest">
+                                <Link href={item.href} className="text-light-green py-3 px-4 hover:bg-white rounded-xl font-medium transition-colors duration-300 tracking-widest">
                                     {item.label}
                                 </Link>
                             )}
