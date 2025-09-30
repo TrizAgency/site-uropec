@@ -72,7 +72,7 @@ export default function Clients() {
   ]
 
   return (
-    <section className="py-20" id="clientes" data-aos="fade-up">
+    <section className="lg:py-20 py-10" id="clientes" data-aos="fade-up">
         <div className="container text-center">
             <h2 className="uppercase font-bold text-xl text-light-green lg:text-3xl">
                 Nossos clientes
@@ -94,6 +94,7 @@ export default function Clients() {
                 slidesPerView: 6,
                 },
             }}
+            grabCursor={true}
             className="h-24 mt-14"
         >
             {logos.map((logo: any) => (

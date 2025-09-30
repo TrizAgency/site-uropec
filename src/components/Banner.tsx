@@ -32,7 +32,7 @@ export default function Banner() {
             description: 'A UROPEC fornece equipamentos a laser de última geração para clínicas e hospitais que exigem excelência em performance cirúrgica.',
             button: {
             text: 'Ver produtos',
-            link: '/produtos',
+            link: '/produtos-urologia',
             },
             leftImage: {
             },
@@ -45,7 +45,7 @@ export default function Banner() {
             description: 'Equipamentos descartáveis com fabricação de excelência, que asseguram proteção, eficiência cirúrgica e facilidade no uso.',
             button: {
                 text: 'Ver produtos',
-                link: '/produtos',
+                link: '/produtos-urologia',
             },
             rightImage: {
                 src: '/seringa.png',
@@ -60,7 +60,7 @@ export default function Banner() {
             description: 'Soluções robustas, certificadas e tecnologicamente avançadas para que hospitais e cirurgiões alcancem o máximo em segurança e precisão.',
             button: {
                 text: 'Ver produtos',
-                link: '/produtos',
+                link: '/produtos-urologia',
             },
             rightImage: {
                 src: '/pinca.png',

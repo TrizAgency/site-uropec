@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Brands() {
   return (
-    <section className="py-20" id="marcas" data-aos="fade-up">
+    <section className="lg:py-20 py-10" id="parceiros" data-aos="fade-up">
         <div className="container text-center flex flex-col items-center">
             <h2 className="uppercase font-bold text-xl text-light-green lg:text-3xl">
                 Marcas Parceiras

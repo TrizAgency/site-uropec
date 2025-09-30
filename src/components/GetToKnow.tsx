@@ -45,7 +45,7 @@ export default function GetToKnow() {
     ];
 
     return (
-        <section className="relative py-10" id="conheca-o-grupo" data-aos="fade-up">
+        <section className="relative py-10 lg:py-20" id="conheca-o-grupo" data-aos="fade-up">
             <div className="lg:container mx-auto">
                 <div className="flex flex-col text-light-green items-center gap-10 lg:gap-16">
                 <h2 className="uppercase font-bold px-10 md:px-16 lg:px-0 text-xl lg:text-3xl">
@@ -78,7 +78,7 @@ export default function GetToKnow() {
                     grabCursor={true}
                     centeredSlides={true}
                     loop={true}
-                    // autoplay={{ delay: 5000 }}
+                    autoplay={{ delay: 5000 }}
                     // cardsEffect={{
                     //   perSlideOffset: 30,
                     //   rotate: false,

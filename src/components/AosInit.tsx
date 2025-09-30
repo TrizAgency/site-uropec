@@ -10,6 +10,8 @@ export default function AosInit() {
       AOS.init({
         once: false,
         duration: 400,
+        delay: 50,
+        offset: 300,
         easing: 'ease-in-out',
       })
     );

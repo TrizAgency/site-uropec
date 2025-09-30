@@ -11,6 +11,7 @@
   --color-blue: #065084;
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+  --font-inter: var(--font-inter);
 }
 
 html {
@@ -51,8 +52,9 @@ body {
     max-width: 1400px;
     margin: auto;
   }
+
   .container-lg {
-    max-width: 1800px;
+    max-width: 1700px;
     margin: auto;
   }
 }

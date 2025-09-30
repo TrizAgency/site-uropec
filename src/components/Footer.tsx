@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function Footer() {
     return (
-        <footer className="w-full bg-gradient-to-r from-[#054F85] via-[#047184] to-[#029383] py-10 mt-10">
+        <footer className="w-full bg-gradient-to-r from-[#054F85] via-[#047184] to-[#029383] py-20 mt-10">
             <div className="container flex flex-col lg:flex-row gap-5 lg:justify-between lg:items-center text-white">
                 <Image className="hidden lg:block" src="/logo-footer-uropec.svg" width={260} height={187} alt="Logo Branco Grupo Uropec" />
                 <Image className="block lg:hidden" src="/logo-footer-uropec.svg" width={180} height={187} alt="Logo Branco Grupo Uropec" />
@@ -25,30 +25,31 @@ export default function Footer() {
                     </div>
                 </div>
 
-                <div className="flex flex-row gap-5 text-xs">
+                <div className="flex flex-row gap-7 text-xs">
                     <div className="flex flex-col gap-3">
                         <div className="flex flex-col">
                             <strong>Home</strong>
-                            <Link href="/#areas-de-atuacao" title="Trabalhe conosco" className="underline decoration-transparent hover:decoration-white transition-all duration-300">Áreas de atuação</Link>
-                            <Link href="/#areas-de-atuacao" title="Trabalhe conosco" className="underline decoration-transparent hover:decoration-white transition-all duration-300">Áreas de atuação</Link>
-                            <Link href="/#areas-de-atuacao" title="Trabalhe conosco" className="underline decoration-transparent hover:decoration-white transition-all duration-300">Áreas de atuação</Link>
+                            <Link href="/#areas-de-atuacao" title="Áreas de atuação" className="underline decoration-transparent hover:decoration-white transition-all duration-300">Áreas de atuação</Link>
+                            <Link href="/#clientes" title="Parceiros" className="underline decoration-transparent hover:decoration-white transition-all duration-300">Parceiros</Link>
+                            <Link href="/#juntos-somos" title="Território Nacional" className="underline decoration-transparent hover:decoration-white transition-all duration-300">Território Nacional</Link>
                         </div>
 
                         <div className="flex flex-col">
                             <strong>Grupo Uropec</strong>
-                            <Link href="/#areas-de-atuacao" title="Trabalhe conosco" className="underline decoration-transparent hover:decoration-white transition-all duration-300">Áreas de atuação</Link>
-                            <Link href="/#areas-de-atuacao" title="Trabalhe conosco" className="underline decoration-transparent hover:decoration-white transition-all duration-300">Áreas de atuação</Link>
-                            <Link href="/#areas-de-atuacao" title="Trabalhe conosco" className="underline decoration-transparent hover:decoration-white transition-all duration-300">Áreas de atuação</Link>
-                            <Link href="/#areas-de-atuacao" title="Trabalhe conosco" className="underline decoration-transparent hover:decoration-white transition-all duration-300">Áreas de atuação</Link>
+                            <Link href="/quem-somos" title="Quem somos" className="underline decoration-transparent hover:decoration-white transition-all duration-300">Quem somos</Link>
+                            <Link href="/quem-somos#missao" title="Missão, Visão e Valores" className="underline decoration-transparent hover:decoration-white transition-all duration-300">Missão, Visão e Valores</Link>
+                            <Link href="/quem-somos#empresas" title="Uropec, Laptech e Finanpec" className="underline decoration-transparent hover:decoration-white transition-all duration-300">Uropec, Laptech e Finanpec</Link>
+                            <Link href="/quem-somos#localizacao" title="Localização" className="underline decoration-transparent hover:decoration-white transition-all duration-300">Localização</Link>
                         </div>
                     </div>
 
                     <div className="flex flex-col gap-3">
                         <div className="flex flex-col">
                             <strong>Produtos</strong>
-                            <Link href="/#areas-de-atuacao" title="Trabalhe conosco" className="underline decoration-transparent hover:decoration-white transition-all duration-300">Áreas de atuação</Link>
-                            <Link href="/#areas-de-atuacao" title="Trabalhe conosco" className="underline decoration-transparent hover:decoration-white transition-all duration-300">Áreas de atuação</Link>
-                            <Link href="/#areas-de-atuacao" title="Trabalhe conosco" className="underline decoration-transparent hover:decoration-white transition-all duration-300">Áreas de atuação</Link>
+                            <Link href="/produtos-bariatrica" title="Produtos Bariátrica" className="underline decoration-transparent hover:decoration-white transition-all duration-300">Bariátrica</Link>
+                            <Link href="/produtos-urologia" title="Produtos Urologia" className="underline decoration-transparent hover:decoration-white transition-all duration-300">Urologia</Link>
+                            <Link href="/produtos-ginecologia" title="Produtos Ginecologia" className="underline decoration-transparent hover:decoration-white transition-all duration-300">Ginecologia</Link>
+                            <Link href="/produtos-cirurgia-geral" title="Produtos Cirurgia Geral" className="underline decoration-transparent hover:decoration-white transition-all duration-300">Cirurgia Geral</Link>
                         </div>
 
                         <div className="flex flex-col">

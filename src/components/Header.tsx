@@ -10,16 +10,24 @@ export default function Header() {
         label: "Grupo Uropec", 
         children: [
             { label: "Quem somos", href: "/quem-somos" },
-            { label: "Uropec", href: "/quem-somos#uropec" },
-            { label: "Laptech", href: "/quem-somos#laptech" },
-            { label: "Finanpec", href: "/quem-somos#finanpec" },
+            { label: "Uropec", href: "/quem-somos#empresas" },
+            { label: "Laptech", href: "/quem-somos#empresas" },
+            { label: "Finanpec", href: "/quem-somos#empresas" },
             { label: "Áreas de Atuação", href: "/#areas-de-atuacao" },
             { label: "Trabalhe conosco", href: "/trabalhe-conosco" },
         ]
     },
-    { label: "Parceiros", href: "#parceiros" },
-    { label: "Produtos", href: "/produtos" },
-    { label: "Fale conosco", href: "#contato" },
+    { label: "Parceiros", href: "/#clientes" },
+    { 
+        label: "Produtos",
+        children: [
+            { label: "Urologia", href: "/produtos-urologia" },
+            { label: "Bariátrica", href: "/produtos-bariatrica" },
+            { label: "Ginecologia", href: "/produtos-ginecologia" },
+            { label: "Cirurgia Geral", href: "/produtos-cirurgia-geral" },
+        ]
+    },
+    { label: "Fale conosco", href: "/#contato" },
   ];
 
   const scrollToTop = () => {
@@ -30,7 +38,7 @@ export default function Header() {
 
   return (
     <header>
-        <div className="w-full bg-dark-green py-5 hidden lg:block">
+        <div className="w-full bg-dark-green py-4 hidden lg:block">
             <div className="container">
                 <Link href="https://wa.me/5519988048662" target="_blank" className="text-white font-bold underline decoration-transparent hover:decoration-white transition-all duration-300">
                     Atendimento ao cliente: +55 19 98804-8662
@@ -80,14 +88,14 @@ export default function Header() {
         {/* Mobile Menu */}
             <div className="bg-white w-full shadow-sm border-b border-gray-300 block lg:hidden">
                 <div className="container flex items-center justify-between py-5">
-                    <div
+                    <Link href="/" title="Home"
                         onClick={(e) => {
                             e.preventDefault();
                             scrollToTop();
                         }}
                     >
                         <Image src="/grupo-uropec-logo.svg" alt="Logo Grupo Uropec" width={160} height={97} />
-                    </div>
+                    </Link>
 
                     <button
                         type="button"
@@ -129,6 +137,7 @@ export default function Header() {
                                                     <Link   
                                                         href={subItem.href} 
                                                         className="block p-2 "
+                                                        onClick={() => setIsMenuOpen(false)}
                                                     >
                                                         - {subItem.label}
                                                     </Link>
