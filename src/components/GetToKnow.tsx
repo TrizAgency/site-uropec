@@ -78,7 +78,7 @@ export default function GetToKnow() {
                     grabCursor={true}
                     centeredSlides={true}
                     loop={true}
-                    autoplay={{ delay: 5000 }}
+                    autoplay={{ delay: 3000 }}
                     // cardsEffect={{
                     //   perSlideOffset: 30,
                     //   rotate: false,

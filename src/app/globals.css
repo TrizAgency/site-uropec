@@ -97,12 +97,14 @@ body {
 
 .swiper-cards .swiper-slide-prev > div {
   opacity: 0.7;
+  filter: grayscale(100%);
   display: flex;
   transition: all 0.2s ease-in-out
 }
 
 .swiper-cards .swiper-slide-next > div {
   opacity: 0.7;
+  filter: grayscale(100%);
   display: flex;
   transition: all 0.2s ease-in-out
 }

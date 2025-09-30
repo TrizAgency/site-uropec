@@ -4,7 +4,7 @@ import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import Products from "@/components/Products";
 import WhatsApp from "@/components/WhatsApp";
-import { productsDisposables, productsSurgery } from "@/helpers/productsList";
+import { productsDisposables, productsLaser, productsSurgery } from "@/helpers/productsList";
 
 export default function ProdutosUrologia() {
     return (
@@ -18,9 +18,7 @@ export default function ProdutosUrologia() {
             />
             <Products 
                 title="Produtos | Laser"
-                products={[
-                    { key: "1", name: "Laser", image: "/produtos/laser.jpg", link: "#" },
-                ]}
+                products={productsLaser}
             />
             <Products 
                 title="Produtos | Equipamentos Cirúrgicos"
