@@ -95,7 +95,7 @@ export default function Banner() {
                                     )}
 
                                     <div className={`flex flex-col gap-5 lg:gap-10 lg:w-1/2 lg:pl-24 px-3 text-start ${!slide.rightImage ? 'mb-80 lg:mb-0' : ''}`}>
-                                        <h2 className='lg:text-4xl text-3xl' dangerouslySetInnerHTML={{ __html: slide.title }}></h2>
+                                        <h2 className='lg:text-4xl text-2xl' dangerouslySetInnerHTML={{ __html: slide.title }}></h2>
                                         <p className='lg:text-xl leading-tight lg:max-w-[420px]' dangerouslySetInnerHTML={{ __html: slide.description }}></p>
                                         <div className='flex flex-col lg:flex-row lg:gap-2 gap-3 items-start'>
                                         <Link href={slide.button?.link} title={slide.button.text} className='bg-transparent text-white rounded-full border border-white py-2 px-4 w-fit hover:text-dark-green hover:bg-white transition-all duration-300 flex gap-5 items-center'>

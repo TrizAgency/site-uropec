@@ -12,7 +12,7 @@ export default function Acting() {
 
                 <div className="h-28 w-2 bg-[#3DCF84] mx-10 hidden lg:block" />
 
-                <p className="lg:text-xl">A UROPEC é reconhecida pela confiabilidade e pelo alto padrão de seus produtos. Atuamos lado a lado com clínicas e hospitais, oferecendo materiais seguros, práticos e estéreis, que asseguram eficiência e tranquilidade no dia a dia dos procedimentos.</p>
+                <p className="lg:text-xl text-center lg:text-start">A UROPEC é reconhecida pela confiabilidade e pelo alto padrão de seus produtos. Atuamos lado a lado com clínicas e hospitais, oferecendo materiais seguros, práticos e estéreis, que asseguram eficiência e tranquilidade no dia a dia dos procedimentos.</p>
             </div>
 
             <div className="container grid grid-cols-1 lg:grid-cols-3 gap-4 pt-12 lg:pt-20 pb-2">

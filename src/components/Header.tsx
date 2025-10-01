@@ -89,10 +89,6 @@ export default function Header() {
             <div className="bg-white w-full shadow-sm border-b border-gray-300 block lg:hidden">
                 <div className="container flex items-center justify-between py-5">
                     <Link href="/" title="Home"
-                        onClick={(e) => {
-                            e.preventDefault();
-                            scrollToTop();
-                        }}
                     >
                         <Image src="/grupo-uropec-logo.svg" alt="Logo Grupo Uropec" width={160} height={97} />
                     </Link>
@@ -116,7 +112,7 @@ export default function Header() {
                         </div>
                     </button>
 
-                    <div className={`fixed flex flex-col items-start p-7 top-0 right-0 w-[250px] bg-dark-green z-[99] shadow-xl transform transition-transform duration-300 rounded-l-2xl ${isMenuOpen ? "translate-x-[0]" : "translate-x-full"}`}>
+                    <div className={`fixed flex flex-col items-start p-7 top-0 right-0 w-[250px] md:w-[300px] bg-dark-green z-[99] shadow-xl transform transition-transform duration-300 rounded-l-2xl ${isMenuOpen ? "translate-x-[0]" : "translate-x-full"}`}>
 
                         <ul className="flex flex-col gap-4 font-normal text-white mt-2">
                             {menuItems.map((item) => (
@@ -133,13 +129,13 @@ export default function Header() {
                                     {item.children && (
                                         <ul>
                                             {item.children.map((subItem, subIndex) => (
-                                                <li key={subIndex} className="text-white normal-case transition-all duration-300">
+                                                <li key={subIndex} className="text-[#ddd] normal-case transition-all duration-300">
                                                     <Link   
                                                         href={subItem.href} 
-                                                        className="block p-2 "
+                                                        className={`block p-2`}
                                                         onClick={() => setIsMenuOpen(false)}
                                                     >
-                                                        - {subItem.label}
+                                                        {subItem.label}
                                                     </Link>
                                                 </li>                                        
                                             ))}
