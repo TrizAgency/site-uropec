@@ -80,7 +80,7 @@ export default function Banner() {
                 autoplay={{ delay: 4000 }}
                 grabCursor={true}
                 pagination={{ clickable: true }}
-                className="carousel-swiper w-screen h-[95vh] container-lg relative"
+                className="carousel-swiper w-screen h-[90vh] container-lg relative"
             >
                 {images.map((slide, idx) => (
                     <SwiperSlide key={idx} className=''>
