@@ -45,7 +45,7 @@ export default function GetToKnow() {
     ];
 
     return (
-        <section className="relative py-10 lg:py-20" id="conheca-o-grupo" data-aos="fade-up">
+        <section className="relative py-10 lg:py-20 lg:h-[750px] h-[531px]" id="conheca-o-grupo">
             <div className="lg:container mx-auto">
                 <div className="flex flex-col text-light-green items-center gap-10 lg:gap-16">
                 <h2 className="uppercase font-bold px-10 md:px-16 lg:px-0 text-xl lg:text-3xl">
@@ -91,7 +91,7 @@ export default function GetToKnow() {
                     >
                     {cards.map((card, index) => (
                         <SwiperSlide key={card.title + index}>
-                            <div className="bg-white text-blue leading-tight lg:text-xl lg:rounded-[88px] rounded-4xl aspect-[496/367]  shadow py-14 px-10 lg:px-20 flex flex-col justify-center items-center gap-10 lg:gap-14">
+                            <div className="bg-white text-blue leading-tight lg:text-xl lg:rounded-[88px] rounded-4xl aspect-[496/367] lg:min-h-[367px] shadow py-14 px-10 lg:px-20 flex flex-col justify-center items-center gap-10 lg:gap-14">
                                 <Image 
                                     className="text-2xl lg:text-4xl uppercase font-neulis-bold-italic text-center hashtag"
                                     src={card.image}
