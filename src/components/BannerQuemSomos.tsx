@@ -27,7 +27,7 @@ export default function BannerQuemSomos() {
                 autoplay={{ delay: 5000 }}
                 grabCursor={true}
                 pagination={{ clickable: true }}
-                className="carousel-swiper w-screen lg:h-[80vh] h-[30vh] container-lg relative"
+                className="carousel-swiper w-screen lg:h-[80vh] 2xl:h-[60vh] h-[30vh] container-lg relative"
             >
                 {images.map((slide, idx) => (
                     <SwiperSlide key={idx} className=''>

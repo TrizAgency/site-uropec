@@ -19,8 +19,8 @@ export default function Home() {
       <Header />
       <Banner />
       <GetToKnow />
-      <Acting />
       <Clients />
+      <Acting />
       <Brands />
       <Together />
       <Presence />

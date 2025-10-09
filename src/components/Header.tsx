@@ -17,7 +17,7 @@ export default function Header() {
             { label: "Trabalhe conosco", href: "/trabalhe-conosco" },
         ]
     },
-    { label: "Parceiros", href: "/#clientes" },
+    { label: "Clientes", href: "/#clientes" },
     { 
         label: "Produtos",
         children: [

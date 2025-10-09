@@ -1,7 +1,7 @@
 'use client';
 
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation, Autoplay, Pagination } from 'swiper/modules';
+import { Autoplay, Pagination } from 'swiper/modules';
 import "swiper/css";
 import "swiper/css/autoplay";
 import "swiper/css/pagination";
@@ -85,8 +85,8 @@ export default function Banner() {
                 {images.map((slide, idx) => (
                     <SwiperSlide key={idx} className=''>
                         <div className="carousel-slide h-full">
-                            <Image fill src={slide.src} alt={slide.alt} quality={100} className="carousel-image object-cover lg:object-left object-center hidden lg:block rounded-[88px]" />
-                            <Image fill src={slide.srcMob} alt={slide.alt} quality={100} className="carousel-image object-cover lg:object-left object-center block lg:hidden rounded-4xl" />
+                            <Image fill src={slide.src} alt={slide.alt} quality={100} priority className="carousel-image object-cover lg:object-left object-center hidden lg:block rounded-[88px]" />
+                            <Image fill src={slide.srcMob} alt={slide.alt} quality={100} priority className="carousel-image object-cover lg:object-left object-center block lg:hidden rounded-4xl" />
                             <div className="carousel-text text-white absolute w-full h-full container left-1/2 -translate-x-1/2 z-20">
                                 <div className='flex flex-col lg:flex-row items-center justify-center gap-5 h-full'>
                                     {slide.leftImage && (    
@@ -108,7 +108,7 @@ export default function Banner() {
                                     {slide.rightImage && (    
                                         <div className='lg:w-1/2 flex items-center justify-center min-h-64 max-h-80 lg:min-h-auto'> 
                                             {slide.rightImage.src && (
-                                                <Image src={slide.rightImage.src} alt={slide.rightImage.alt} width={600} height={600} quality={100} className="w-full h-full object-cover" />
+                                                <Image src={slide.rightImage.src} alt={slide.rightImage.alt} width={600} height={600} quality={100} priority className="w-full h-full object-cover" />
                                             )}
                                         </div>
                                     )}

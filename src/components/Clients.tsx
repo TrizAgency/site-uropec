@@ -72,7 +72,7 @@ export default function Clients() {
   ]
 
   return (
-    <section className="lg:py-20 py-10" id="clientes" data-aos="fade-up">
+    <section className="py-20" id="clientes">
         <div className="container text-center">
             <h2 className="uppercase font-bold text-xl text-light-green lg:text-3xl">
                 Nossos clientes

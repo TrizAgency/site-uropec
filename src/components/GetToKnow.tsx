@@ -45,7 +45,7 @@ export default function GetToKnow() {
     ];
 
     return (
-        <section className="relative py-10 lg:py-20 lg:h-[750px] h-[531px]" id="conheca-o-grupo">
+        <section className="relative py-10 lg:pb-0 lg:h-[620px] 2xl:h-[700px] h-[531px]" id="conheca-o-grupo">
             <div className="lg:container mx-auto">
                 <div className="flex flex-col text-light-green items-center gap-10 lg:gap-16">
                 <h2 className="uppercase font-bold px-10 md:px-16 lg:px-0 text-xl lg:text-3xl">

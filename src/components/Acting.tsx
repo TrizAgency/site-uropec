@@ -4,7 +4,7 @@ import ArrowRight from "./ArrowRight";
 
 export default function Acting() {
     return (
-        <section className="py-10" id="areas-de-atuacao" >
+        <section className="lg:py-20 py-10" id="areas-de-atuacao" >
             <div className="container flex flex-col lg:flex-row gap-7 lg:gap-10 items-center text-light-green lg:px-28">
                 <h2 className="uppercase font-bold text-xl whitespace-nowrap lg:text-3xl">
                     Nossa atuação

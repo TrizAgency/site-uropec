@@ -5,7 +5,7 @@ import Tabs from "./Tabs";
 
 export default function Contact() {
   return (
-    <section className="lg:py-20 py-10" id="contato" data-aos="fade-up">
+    <section className="lg:py-20 py-10" id="contato">
         <div className="container text-center flex flex-col items-start gap-10 lg:gap-14">
             <h2 className="uppercase font-bold text-center w-full text-xl text-light-green lg:text-3xl">
                 Contato
