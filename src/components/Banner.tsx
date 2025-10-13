@@ -48,8 +48,8 @@ export default function Banner() {
                 link: '/produtos-urologia',
             },
             rightImage: {
-                src: '/seringa.png',
-                alt: 'Seringa Uropec',
+                src: '/banner-duplo-j.png',
+                alt: 'DuploJ Uropec',
             },
         },
         {
@@ -63,8 +63,8 @@ export default function Banner() {
                 link: '/produtos-urologia',
             },
             rightImage: {
-                src: '/pinca.png',
-                alt: 'Pinça Uropec',
+                src: '/banner-grampeador.png',
+                alt: 'Grampeador Uropec',
             },
         },
     ];

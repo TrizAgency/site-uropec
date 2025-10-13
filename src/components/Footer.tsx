@@ -19,9 +19,7 @@ export default function Footer() {
                     </Link>
 
                     <div>
-                        <Link href="tel:+551932821811" target="_blank" className="underline decoration-transparent hover:decoration-white transition-all duration-300">+55 19 3282-1811</Link> 
-                        <span className="mx-1.5">|</span>
-                        <Link href="https://wa.me/5519988048662" target="_blank" className="underline decoration-transparent hover:decoration-white transition-all duration-300">+55 19 98804-8662</Link>
+                        <Link href="https://wa.me/5519984080060" target="_blank" className="underline decoration-transparent hover:decoration-white transition-all duration-300">+55 19 98408-0060</Link>
                     </div>
                 </div>
 

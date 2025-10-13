@@ -40,8 +40,8 @@ export default function Header() {
     <header>
         <div className="w-full bg-dark-green py-4 hidden lg:block">
             <div className="container">
-                <Link href="https://wa.me/5519988048662" target="_blank" className="text-white font-bold underline decoration-transparent hover:decoration-white transition-all duration-300">
-                    Atendimento ao cliente: +55 19 98804-8662
+                <Link href="https://wa.me/5519984080060" target="_blank" className="text-white font-bold underline decoration-transparent hover:decoration-white transition-all duration-300">
+                    Atendimento ao cliente: +55 19 98408-0060
                 </Link>
             </div>
         </div>
