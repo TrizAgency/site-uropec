@@ -14,7 +14,7 @@ export default function Header() {
             { label: "Laptech", href: "/quem-somos#empresas" },
             { label: "Finanpec", href: "/quem-somos#empresas" },
             { label: "Áreas de Atuação", href: "/#areas-de-atuacao" },
-            { label: "Trabalhe conosco", href: "/trabalhe-conosco" },
+            // { label: "Trabalhe conosco", href: "/trabalhe-conosco" },
         ]
     },
     { label: "Clientes", href: "/#clientes" },
