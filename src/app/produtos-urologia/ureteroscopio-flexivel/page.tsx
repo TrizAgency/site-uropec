@@ -16,7 +16,7 @@ export default function Page () {
                     <h1 className="lg:text-3xl text-xl font-bold">Ureteroscópio Flexível</h1>
                     <p>O Ureteroscópio Flexível é um instrumento médico essencial em procedimentos urológicos, oferecendo excelente visualização e acesso ao trato urinário superior. Com sua tecnologia avançada de fibra óptica e design flexível, permite a realização de diagnósticos precisos e tratamentos minimamente invasivos.</p>
 
-                    <Link href="/#contato" className="inline-flex gap-6 justify-center items-center w-fit rounded-full bg-transparent text-dark-green hover:bg-dark-green hover:text-white border border-dark-green font-bold py-2 pl-4 pr-2 mt-5 transition-all duration-300">
+                    <Link href="https://wa.me/5519984080060" target="_blank" className="inline-flex gap-6 justify-center items-center w-fit rounded-full bg-transparent text-dark-green hover:bg-dark-green hover:text-white border border-dark-green font-bold py-2 pl-4 pr-2 mt-5 transition-all duration-300">
                         Saiba mais
                         <ArrowRight bgColor="#026E6A" arrowColor="#fff" />     
                     </Link>

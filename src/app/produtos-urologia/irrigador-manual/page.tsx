@@ -18,7 +18,7 @@ export default function Page () {
                     <h1 className="lg:text-3xl text-xl font-bold">Irrigador Manual</h1>
                     <p>O Irrigador Manual proporciona controle operacional ao médico. O mesmo proporciona maior precisão e assegura um ótimo fluxo de soro/água durante processos endoscópicos ajudando tanto na dilatação do ureter, como também na limpeza da parte distal do endoscópio.</p>
 
-                    <Link href="/#contato" className="inline-flex gap-6 justify-center items-center w-fit rounded-full bg-transparent text-dark-green hover:bg-dark-green hover:text-white border border-dark-green font-bold py-2 pl-4 pr-2 mt-5 transition-all duration-300">
+                    <Link href="https://wa.me/5519984080060" target="_blank" className="inline-flex gap-6 justify-center items-center w-fit rounded-full bg-transparent text-dark-green hover:bg-dark-green hover:text-white border border-dark-green font-bold py-2 pl-4 pr-2 mt-5 transition-all duration-300">
                         Fazer orçamento
                         <ArrowRight bgColor="#026E6A" arrowColor="#fff" />     
                     </Link>

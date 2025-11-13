@@ -16,7 +16,7 @@ export default function Page () {
                     <h1 className="lg:text-3xl text-xl font-bold">Fio Guia Hidrofílico</h1>
                     <p>O Fio Guia hidrofílico é utilizado nas cirurgias para obter acesso e navegar tratos urinários tortuosos. Dimensão: 0,035 x 150 cm.</p>
 
-                    <Link href="/#contato" className="inline-flex gap-6 justify-center items-center w-fit rounded-full bg-transparent text-dark-green hover:bg-dark-green hover:text-white border border-dark-green font-bold py-2 pl-4 pr-2 mt-5 transition-all duration-300">
+                    <Link href="https://wa.me/5519984080060" target="_blank" className="inline-flex gap-6 justify-center items-center w-fit rounded-full bg-transparent text-dark-green hover:bg-dark-green hover:text-white border border-dark-green font-bold py-2 pl-4 pr-2 mt-5 transition-all duration-300">
                         Fazer orçamento
                         <ArrowRight bgColor="#026E6A" arrowColor="#fff" />     
                     </Link>

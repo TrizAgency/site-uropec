@@ -16,7 +16,7 @@ export default function Page () {
                     <h1 className="lg:text-3xl text-xl font-bold">Cateter Ureteral</h1>
                     <p>Indicado para drenagem, pielograma e navegação em ureter tortuoso. Ponta aberta flexível projetada para passagem traumática para dentro e através do ureter, e colocação sobre um fio-guia. Ponta angular, que é usada para direcionar um fio guia com ponta flexível no ureter. A ponta angular permite a passagem do cateter por um cálculo renal.</p>
 
-                    <Link href="/#contato" className="inline-flex gap-6 justify-center items-center w-fit rounded-full bg-transparent text-dark-green hover:bg-dark-green hover:text-white border border-dark-green font-bold py-2 pl-4 pr-2 mt-5 transition-all duration-300">
+                    <Link href="https://wa.me/5519984080060" target="_blank" className="inline-flex gap-6 justify-center items-center w-fit rounded-full bg-transparent text-dark-green hover:bg-dark-green hover:text-white border border-dark-green font-bold py-2 pl-4 pr-2 mt-5 transition-all duration-300">
                         Fazer orçamento
                         <ArrowRight bgColor="#026E6A" arrowColor="#fff" />     
                     </Link>

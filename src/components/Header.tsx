@@ -27,7 +27,8 @@ export default function Header() {
             { label: "Cirurgia Geral", href: "/produtos-cirurgia-geral" },
         ]
     },
-    { label: "Fale conosco", href: "/#contato" },
+    // { label: "Fale conosco", href: "/#contato" },
+    { label: "Fale conosco", href: "https://wa.me/5519984080060" },
   ];
 
   const scrollToTop = () => {
@@ -75,7 +76,7 @@ export default function Header() {
                                         </ul>
                                 </>
                             ) : (
-                                <Link href={item.href} className="text-light-green py-3 px-4 hover:bg-white rounded-xl font-medium transition-colors duration-300 tracking-widest">
+                                <Link href={item.href} target={item.href.startsWith('http') ? '_blank' : '_self'} className="text-light-green py-3 px-4 hover:bg-white rounded-xl font-medium transition-colors duration-300 tracking-widest">
                                     {item.label}
                                 </Link>
                             )}

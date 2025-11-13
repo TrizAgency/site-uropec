@@ -25,7 +25,7 @@ export default function Home() {
       <Together />
       <Presence />
       <Distributor />
-      <Contact />
+      {/* <Contact /> */}
       <Footer />
       <WhatsApp />
     </main>

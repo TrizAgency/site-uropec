@@ -16,7 +16,7 @@ export default function Page () {
                     <h1 className="lg:text-3xl text-xl font-bold">Kit de Cânulas / Conjunto Dilatador</h1>
                     <p>Utilizado para dilatação das estruturas ureterais em Ureteroscopia. O kit é um conjunto de nove dilatadores ureterais, sequencias com calibres 6, 8, 9, 10, 11, 12, 14, 16, e 18Fr e 60cm de comprimento. Acompanha também um fio guia em aço metálico, com calibre de 0,038, medindo 145 cm de comprimento, com a ponta atraumática flexível de 3cm.</p>
 
-                    <Link href="/#contato" className="inline-flex gap-6 justify-center items-center w-fit rounded-full bg-transparent text-dark-green hover:bg-dark-green hover:text-white border border-dark-green font-bold py-2 pl-4 pr-2 mt-5 transition-all duration-300">
+                    <Link href="https://wa.me/5519984080060" target="_blank" className="inline-flex gap-6 justify-center items-center w-fit rounded-full bg-transparent text-dark-green hover:bg-dark-green hover:text-white border border-dark-green font-bold py-2 pl-4 pr-2 mt-5 transition-all duration-300">
                         Fazer orçamento
                         <ArrowRight bgColor="#026E6A" arrowColor="#fff" />     
                     </Link>

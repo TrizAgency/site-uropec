@@ -52,9 +52,9 @@ export default function Footer() {
 
                         <div className="flex flex-col gap-1 lg:gap-0">
                             <strong>Contato</strong>
-                            <Link href="/#contato" title="Contato" className="underline decoration-transparent hover:decoration-white transition-all duration-300">Quero ser um cliente Uropec</Link>
-                            <Link href="/#contato" title="Contato" className="underline decoration-transparent hover:decoration-white transition-all duration-300">Quero ser um distribuidor Laptech</Link>
-                            <Link href="/#contato" title="Contato" className="underline decoration-transparent hover:decoration-white transition-all duration-300">Quero fazer uma cirurgia</Link>
+                            <Link href="https://wa.me/5519984080060" target="_blank" title="Contato" className="underline decoration-transparent hover:decoration-white transition-all duration-300">Quero ser um cliente Uropec</Link>
+                            <Link href="https://wa.me/5519984080060" target="_blank" title="Contato" className="underline decoration-transparent hover:decoration-white transition-all duration-300">Quero ser um distribuidor Laptech</Link>
+                            <Link href="https://wa.me/5519984080060" target="_blank" title="Contato" className="underline decoration-transparent hover:decoration-white transition-all duration-300">Quero fazer uma cirurgia</Link>
                         </div>
                     </div>
                 </div>

@@ -40,7 +40,7 @@ export default function Companies() {
                             <h3 className="text-xl lg:text-3xl font-bold">Laptech</h3>
                             <p className="lg:text-xl mb-10">A LAPTECH é com foco em inovação e qualidade, a empresa contribui para que o mercado hospitalar tenha acesso a soluções modernas, duráveis e eficazes, acompanhadas de assistência técnica especializada.</p>
 
-                            <Link href="/#contato" title="Seja um distribuidor Laptech" className='bg-transparent text-dark-green rounded-full border border-dark-green py-2 px-4 w-fit hover:text-white hover:bg-dark-green transition-all duration-300 flex gap-5 items-center'>
+                            <Link href="https://wa.me/5519984080060" target="_blank" title="Seja um distribuidor Laptech" className='bg-transparent text-dark-green rounded-full border border-dark-green py-2 px-4 w-fit hover:text-white hover:bg-dark-green transition-all duration-300 flex gap-5 items-center'>
                                 <Image src="/carro.svg" width={45} height={30} alt="Laptech" />
                                 <p className='leading-tight text-sm'>Seja um distribuidor Laptech</p>
                                 <ArrowRight arrowColor="#fff" bgColor="#026E6A" />
